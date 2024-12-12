@@ -7,6 +7,7 @@ class Inventory(models.Model):
     itemCount = models.IntegerField(null = False)
     Expires_on = models.DateField(null = False)
     Description = models.TextField(max_length=500)
+    status = models.IntegerField(default=1)
 
 
 
